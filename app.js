@@ -43,7 +43,7 @@ sequelize
 	.sync()
 	.then((res) => {
 		// console.log(res);
-		return User.findByPk(3);
+		return User.findByPk(1);
 	})
 	.then((user) => {
 		if (!user) {
